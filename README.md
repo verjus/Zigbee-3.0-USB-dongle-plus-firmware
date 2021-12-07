@@ -8,8 +8,8 @@ this firmware.
 
 ## Firmware features
 
-This firmware is my attempt at enable hardware flow control in the
-firmware maintained by [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/develop/coordinator/Z-Stack_3.x.0/)
+This firmware attempts to enable hardware flow control in the
+firmware maintained by [Koenkk](https://github.com/Koenkk/Z-Stack-firmware/blob/develop/coordinator/Z-Stack_3.x.0/). The firmware appears to require the hardware flow switch to be activated on the dongle and in the configuration file.
 
 
 ## Firmware Description
