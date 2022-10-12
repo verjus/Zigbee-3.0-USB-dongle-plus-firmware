@@ -39,20 +39,8 @@ diff ti_drivers_config.h ~/syscfg.or/ti_drivers_config.h
 
 and
 ```
-diff ti_drivers_config.h ~/syscfg.or/ti_drivers_config.h 
-97,104d96
-<   /* Owned by CONFIG_DISPLAY_UART as  */
-< extern const uint_least8_t CONFIG_GPIO_3_CONST;
-< #define CONFIG_GPIO_3 19
-< 
-< /* Owned by CONFIG_DISPLAY_UART as  */
-< extern const uint_least8_t CONFIG_GPIO_4_CONST;
-< #define CONFIG_GPIO_4 18
-< 
-225,226d216
-<  *  CTS: DIO19
-<  *  RTS: DIO18
-PCAXS::syscfg>diff ti_drivers_config.c ~/syscfg.or/ti_drivers_config.c
+
+diff ti_drivers_config.c ~/syscfg.or/ti_drivers_config.c
 269,272c269,270
 <     /* Owned by CONFIG_DISPLAY_UART as RTS */
 <     GPIO_CFG_OUTPUT_INTERNAL | GPIO_CFG_OUT_STR_MED | GPIO_CFG_OUT_LOW, /* CONFIG_GPIO_4 */
